@@ -20,7 +20,7 @@
                 display: none;
             }
             .horizontal-scroll {
-                width: 100px;
+                width: 500px;
                 height: 97vw;
                 transform: rotate(-90deg) translateY(-110px);
                 overflow-x: hidden;
@@ -30,6 +30,7 @@
                  position: relative;
                 /* desired width */
                 margin: 5px;
+                margin-top: 20px;
                 background-attachment: fixed;
                 background: gray;
                 border-radius: 6px
@@ -38,7 +39,7 @@
                 height: 100px;
                 width: 100px;
                 background-color: transparent;
-                transform: rotate(90deg);
+                transform: rotate(90deg), translate(-100px,0px);
                 display:block;
                 border-left: 2px solid rgba(0, 0, 0, 0.13);
                 text-align:center;
@@ -56,7 +57,7 @@
     </head>
     <body>
        <div class='horizontal-scroll'>
-            <div class='Card'>1</div>
+           <div class='Card'>1</div>
            <div class='Card'>2</div>
            <div class='Card'>3</div>
            <div class='Card'>4</div>
